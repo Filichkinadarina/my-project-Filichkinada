@@ -41,7 +41,7 @@ body.landing {
 .mainSection {
   width: 1440px;
   position: relative;
-  height: 800px;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -108,6 +108,7 @@ body.landing {
 @media screen and (max-width: 1440px) {
   .landingWrapper {
     width: 100%
+    height: 100%;
   }
 }
 
