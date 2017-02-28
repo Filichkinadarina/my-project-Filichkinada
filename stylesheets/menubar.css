@@ -27,25 +27,22 @@
   cursor: pointer;
 }
 
-/*.userMenu:first-child {
-  display: inline-block;
-  width: 88px;
-  height: 27px;
-  background-image: url(../photos/logo.svg);
-}*/
-
-.userMenu ul {
+.est {
   position: absolute;
   top: 70px;
   right: 10px;
-  display: none;
+  /*display: none;*/
   width: 220px;
   padding: 10px 0;
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
   background-color: white;
 }
 
-.userMenu:hover ul {
+.net {
+  display: none;
+}
+
+.userMenu:hover .net {
   display: block;
 }
 
