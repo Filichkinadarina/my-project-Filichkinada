@@ -19,9 +19,9 @@ body {
   font-size: 1.6rem;
   font-family: "Slabo 27px", serif;
   color: black;
-  background-image: url(../img/13.gif);
-  background-size: contain;
-  background-repeat: no-repeat;
+  /*background-image: url(../img/fon.gif);*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
   /*background-color: #131d20;*/
 }
 
@@ -71,13 +71,13 @@ Main Components
 }
 @media only screen and (min-width: 768px) {
   .cd-section h1 {
-    color: white;
+    color: black;
     font-size: 5.2rem;
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-section h1 {
-    color: white;
+    color: black;
     font-size: 5.2rem;
   }
 }
